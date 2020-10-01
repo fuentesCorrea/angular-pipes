@@ -14,9 +14,9 @@ export class AppComponent {
   porcenaje: number = 0.234;
   salario: number= 12345
   fecha: Date = new Date();
+  nombre2:string='juAn cArLoS'
+  lengua:string='en'
 
-
-lengua:string='en'
   
 
 }

@@ -72,6 +72,11 @@
                     <button (click)="lengua='fr'" type="button" id='fr' class=" mr-2 btn btn-dark">frances</button>
                     <button (click)="lengua='es'" type="button" id="es" class=" mr-2 btn btn-dark">español</button>
                 </tr>
+                <tr>
+                    <td>{{nombre2}}</td>
+                    <td>capitalizado</td>
+                    <td>{{nombre2 | capitalizada:true}}</td>
+                </tr>
             </tbody>
         </table>
 
