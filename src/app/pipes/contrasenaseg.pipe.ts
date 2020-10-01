@@ -5,17 +5,22 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class ContrasenasegPipe implements PipeTransform {
 
-  transform(value: string,  activate: boolean = true): any {
+  transform(value: string,  activate: boolean = true): string {
 
     let pass = value
    
     if(activate){
-      let password = pass.split('').map(item=>{
-      return   item = '*'
+
+      return '*'.repeat(value.length)
+
+      // *****esta es otre forma de realizarlo de otra forma******
+      // let password = pass.split('').map(item=>{
+      // return   item = '*'
     
-      })
-      console.log(password.join(' '))
-      return password.join(' ')
+      // })
+      // return password.join(' ')
+
+      // ******************************************//
     }else{
 
       return pass
