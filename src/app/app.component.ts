@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes';
+  nombre: string = 'capitan america'
+  arreglo= [1,2,3,4,5,6,7]
+  PI     :number= Math.PI;
+  porcenaje: number = 0.234;
+  salario: number= 12345
+  fecha: Date = new Date();
+
 }
