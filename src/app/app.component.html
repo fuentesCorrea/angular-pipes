@@ -75,7 +75,7 @@
                 <tr>
                     <td>{{nombre2}}</td>
                     <td>capitalizado</td>
-                    <td>{{nombre2 | capitalizada:true}}</td>
+                    <td>{{nombre2 | capitalizada:false}}</td>
                 </tr>
             </tbody>
         </table>
@@ -89,5 +89,12 @@
 
 
         </ul>
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <iframe class="mb-5" width="560" height="315" [src]="video | domseguro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 </div>

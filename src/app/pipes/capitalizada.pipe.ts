@@ -12,7 +12,7 @@ export class CapitalizadaPipe implements PipeTransform {
     value = value.toLocaleLowerCase();
     console.log(value)
     let nombres = value.split(' ');
-    console.log(nombres)
+   
 
     if(todas){
      nombres = nombres.map(nombre => {
@@ -21,7 +21,10 @@ export class CapitalizadaPipe implements PipeTransform {
 
       return nombres.join(' ')
     }else{
-       return value
+        
+      let nom = nombres[0][0].toUpperCase()+ nombres[0].substring(1) +' '+ nombres[1]
+      
+      return nom
     }
 
 

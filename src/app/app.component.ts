@@ -16,6 +16,7 @@ export class AppComponent {
   fecha: Date = new Date();
   nombre2:string='juAn cArLoS'
   lengua:string='en'
+  video:string="https://www.youtube.com/embed/nsEMN4O0CmQ"
 
   
 
