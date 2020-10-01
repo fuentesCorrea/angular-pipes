@@ -65,8 +65,12 @@
                 </tr>
                 <tr>
                     <td>{{fecha}}</td>
-                    <td>currentcy CLP</td>
-                    <td>{{fecha | date:'yyyy-d'}}</td>
+                    <td>currentcy CLP
+                    </td>
+                    <td>{{fecha | date:'MMMM-dd':'':lengua}}</td>
+                    <button (click)="lengua='en'" id='en' type="button" class=" mr-2 btn btn-dark">ingles</button>
+                    <button (click)="lengua='fr'" type="button" id='fr' class=" mr-2 btn btn-dark">frances</button>
+                    <button (click)="lengua='es'" type="button" id="es" class=" mr-2 btn btn-dark">español</button>
                 </tr>
             </tbody>
         </table>

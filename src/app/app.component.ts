@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Button } from 'protractor';
 
 @Component({
   selector: 'app-root',
@@ -13,5 +14,9 @@ export class AppComponent {
   porcenaje: number = 0.234;
   salario: number= 12345
   fecha: Date = new Date();
+
+
+lengua:string='en'
+  
 
 }
