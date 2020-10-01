@@ -21,6 +21,8 @@ export class ContrasenasegPipe implements PipeTransform {
       // return password.join(' ')
 
       // ******************************************//
+
+    //desde qeui 
     }else{
 
       return pass
